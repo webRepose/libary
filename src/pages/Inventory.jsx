@@ -68,7 +68,7 @@ const Inventory = () => {
 
   return (
     <div className={Style.inventory_page}>
-      <h1>Учёт школьной библиотеки</h1>
+      <h1>Университетская библиотека</h1>
 
       <div className={Style.inventory_top}>
         <ItemForm
