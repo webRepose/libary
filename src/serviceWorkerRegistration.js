@@ -1,5 +1,3 @@
-// src/serviceWorkerRegistration.js
-// Этот файл взят из официальной CRA PWA-конфигурации
 
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||

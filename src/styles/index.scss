@@ -82,3 +82,9 @@ button {
     opacity: 0.8;
   }
 }
+
+@media print {
+  button, header {
+    display: none !important;
+  }
+}
