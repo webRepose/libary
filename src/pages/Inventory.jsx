@@ -68,7 +68,9 @@ const Inventory = () => {
 
   return (
     <div className={Style.inventory_page}>
-      <h1>Учёт школьной библиотеки</h1>
+                      <Link style={{paddingRight: '10px'}} to="/">Главная</Link>
+              <Link to="/stats">Статистика</Link>
+      <h1>Учёт университской библиотеки</h1>
 
       <div className={Style.inventory_top}>
         <ItemForm

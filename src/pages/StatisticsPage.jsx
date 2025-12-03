@@ -56,7 +56,6 @@ const StatisticsPage = () => {
       <div style={styles.container}>
                 <div style={styles.page2}>
                 <Link style={{paddingRight: '10px'}} to="/">Главная</Link>
-                         
               <Link to="/stats">Статистика</Link>
         </div>
         <h1 style={styles.title}>📊 Статистика библиотеки</h1>
