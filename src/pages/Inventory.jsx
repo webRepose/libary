@@ -70,7 +70,7 @@ const Inventory = () => {
     <div className={Style.inventory_page}>
                       <Link style={{paddingRight: '10px'}} to="/">Главная</Link>
               <Link to="/stats">Статистика</Link>
-      <h1>Учёт университской библиотеки</h1>
+      <h1>Учёт книг в университетской библиотеке</h1>
 
       <div className={Style.inventory_top}>
         <ItemForm
